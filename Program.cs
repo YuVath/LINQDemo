@@ -369,9 +369,89 @@ namespace LINQDemo
             //                  select data).ToList();
 
 
+            // Order By
 
 
-            
+
+            //var dataSource = new List<int>() { 5, 12, 13, 1, 7, 52, 100 };
+
+            //var queryQuery =  (from num in dataSource
+            //                   where num > 10
+            //                   orderby num
+            //                   select num).ToList();
+
+            //var methodQuery = dataSource.Where(x => x > 10).OrderBy(x => x).ToList();
+
+
+            // Order By
+
+
+
+            //var stringList = new List<string>() { "Syed", "Muhammad", "Azwar", "Fareed", "Hasni" };
+
+            //var queryQuery = (from name in stringList
+            //                  where name.Length > 6
+            //                  orderby name
+            //                  select name).ToList();
+
+
+            //var methodQuery = stringList.Where(x => x.Length > 6).OrderBy(x => x).ToList();
+
+
+            // Order By
+
+
+
+            //var dataSource = new List<Employee>()
+            //{
+            //    new Employee()
+            //    {
+            //        Id = 3,
+            //        Email = "Smith@gmail.com",
+            //        Name = "Smith"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id=2,
+            //        Email = "Thomas@gmail.com",
+            //        Name = "Thomas"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id = 1,
+            //        Email = "Allen@gmail.com",
+            //        Name = "Allen"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id = 4,
+            //        Email = "Anderson@gmail.com",
+            //        Name = "Anderson"
+            //    }
+            //};
+
+            //var queryQuery = (from id in dataSource
+            //                  orderby id.Id
+            //                  select id).ToList();
+
+            //var methodQuery = dataSource.OrderBy(x => x.Id).ToList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Console.WriteLine();
         }
     }
