@@ -437,8 +437,81 @@ namespace LINQDemo
             //var methodQuery = dataSource.OrderBy(x => x.Id).ToList();
 
 
-            Console.WriteLine();
-            Console.WriteLine("Yes");
+
+            // Order By Descending
+
+
+
+            //var dataSource = new List<int>() { 5, 12, 13, 1, 7, 52, 100 };
+
+            //var queryQuery = (from num in dataSource
+            //                  where num > 10
+            //                  orderby num descending
+            //                  select num).ToList();
+
+            //var methodQuery = dataSource.Where(x => x > 10).OrderByDescending(x => x).ToList();
+
+
+
+            // Then By
+
+
+
+
+            //var dataSource = new List<Employee>()
+            //{
+            //    new Employee()
+            //    {
+            //        Id = 3,
+            //        Email = "Smith@gmail.com",
+            //        LastName = "Smith",
+            //        FirstName = " Foo"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id=2,
+            //        Email = "Thomas@gmail.com",
+            //        LastName = "Thomas",
+            //        FirstName = "Mark"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id = 1,
+            //        Email = "Allen@gmail.com",
+            //        LastName = "Allen",
+            //        FirstName = "Mark"
+            //    },
+            //    new Employee()
+            //    {
+            //        Id = 4,
+            //        Email = "Anderson@gmail.com",
+            //        LastName = "Anderson",
+            //        FirstName = "Foo"
+            //    }
+            //};
+
+            //var ms = dataSource.OrderBy(x => x.FirstName).ThenBy(x => x.LastName).ToList();
+
+            //var qs = (from item in dataSource
+            //         orderby item.FirstName, item.LastName
+            //         select item).ToList();
+
+            //foreach (var item in qs)
+            //{
+            //    Console.WriteLine($"{item.Id} , {item.Email} , {item.LastName} , {item.FirstName}");
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
